@@ -25,9 +25,13 @@ The maximum $R$ among all topics, $R_{max}$, is then extracted.
 
 If $R_{max} < 1$, the target $T$ for each topic is determined by
 
+$$ T(\text{topic}) = \text{Ideal Ratio}(\text{topic}) - \text{Achievement}(\text{topic}) $$
 
 If $R_{max} \ge 1$, the target $T$ for each topic is determined by
 
+$$ T(\text{topic}) = R_{max} \times \text{Ideal Ratio}(\text{topic}) - \text{Achievement}(\text{topic}) $$
+
+Lastly, irrespective of the method used to determine $T$, $T$ is rounded up to the nearest integer.
 
 ## Tripos notes
 
