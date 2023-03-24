@@ -31,9 +31,33 @@ If $R_{max} \ge 1$, the target $T$ for each topic is determined by
 
 $$ T(\text{topic}) = R_{max} \times \text{Ideal Ratio}(\text{topic}) - \text{Achievement}(\text{topic}) $$
 
-Lastly, irrespective of the method used to determine $T$, $T$ is rounded up to the nearest integer.
+Lastly, irrespective of calculation methods, $T$ is rounded up to the nearest integer.
+
+![Example_Dashboard](https://user-images.githubusercontent.com/121029649/227573392-66c81989-f707-4f0b-8e64-7aed68874aae.png)
 
 ## Tripos notes
 
+This section is for logging completed tripos questions and reviewing learning points.
+
+For each completed tripos question, insert the corresponding year, paper number and question number to the columns labelled Y (column A), P (column B) and Q (column C) respectively.
+
+Next, insert the corresponding topic to column D. The value inserted to the topic column must match with one of the topics listed in column A of [dashboard](#dashboard) in order to successfully update the numerical value for achievements (column B of [dashboard](#dashboard)).
+
+The subtopic should then be inserted to column E. The subtopic is designed for categorising tripos questions within a topic. For example, for the particle processing topic in CET IIA, the subtopics may include particle characterisation, cyclones and hoppers.
+
+The possible input options for difficulty level (column F) are H (high), M (medium), L (low) and Outsy (out of syllabus). The cell will be automatically colour coded to red, yellow, blue and grey respectively upon entering the values. This is shown in the example user interface below.
+
+For the remarks column (column G), learning points and comments from the tripos question shall be inserted. Press Alt+Enter to create new comment rows within the same cell, as in the example user interface below. These comments should ideally be specific to the topic/subtopic. General comments that are non-specific to the topic/subtopic can be inserted in the [General comments](#general-comments) section.
+
+The date when the tripos question is attempted should be inserted to column H.
+
+The filter function is enabled for all columns A to H, so tripos questions can be easily extracted for different review basis, such as by topic and/or by difficulty.
+
+![Example_TriposNotes](https://user-images.githubusercontent.com/121029649/227580996-56232df6-9a73-4058-8b8d-37bd9a42569f.png)
+
 
 ## General comments
+
+Learning points and comments are applicable to multiple or all topics can be inserted in this section. An example user interface is provided below.
+
+![Example_GeneralComments](https://user-images.githubusercontent.com/121029649/227581063-f9b4ab09-4406-466a-9476-f248ecfa7924.png)
