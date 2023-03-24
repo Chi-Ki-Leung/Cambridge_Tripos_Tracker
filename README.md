@@ -12,7 +12,7 @@ The dashboard summarises the number of tripos questions completed and to be done
 
 Column A lists the topics and groups them to relevant tripos papers according to the 2022-2023 Form and Conduct notices. Abbreviations are applied to the topics and they can be changed by editing the corresponding cell. For CET I, please delete as appropriate for the engineering/chemistry topic in paper 4. For CET IIA, the corrosion and materials topic is separated as two distinct topics of 'corrosion' (Corr) and 'materials' (Mat).
 
-The 'Achievements' in column B summarises the number of tripos questions completed for each topic. The numbers are automatically updated according to the tripos question entries logged into the [tripos notes](#tripos-notes) section. The cells are automatically colour coded based on the relative numerical magnitude. A greater value will result in a lighter shade, as illustrated in the example user interface below.
+The 'Achievements' in column B summarises the number of tripos questions completed for each topic. The numbers are automatically updated according to the tripos question entries logged into the [Tripos notes](#tripos-notes) section. The cells are automatically colour coded based on the relative numerical magnitude. A greater value will result in a lighter shade, as illustrated in the example user interface below.
 
 In column C, the 'Ideal Ratio' between topics are the number of questions for each topic set in the tripos papers, according to the 2022-2023 Form and Conduct notices. The values for the ideal ratio can be changed, such as to account for personal strengths or weaknesses in different topics, by editing the relevant cells.
 
@@ -43,7 +43,7 @@ This section is for logging completed tripos questions and reviewing learning po
 
 For each completed tripos question, insert the corresponding year, paper number and question number to the columns labelled Y (column A), P (column B) and Q (column C) respectively.
 
-Next, insert the corresponding topic to column D. The value inserted to the topic column must match with one of the topics listed in column A of [dashboard](#dashboard), in order to successfully update the numerical value for achievements (column B of [dashboard](#dashboard)).
+Next, insert the corresponding topic to column D. The value inserted to the topic column must match with one of the topics listed in column A of [Dashboard](#dashboard), in order to successfully update the numerical value for achievements (column B of [Dashboard](#dashboard)).
 
 The subtopic should then be inserted to column E. The subtopic is designed for categorising tripos questions within the same topic for efficient review. For example, for the particle processing topic in CET IIA, the subtopics may include particle characterisation, cyclones and hoppers.
 
