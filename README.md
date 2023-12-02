@@ -1,16 +1,22 @@
 # CET Tripos Tracker
 Developed and written by Chi Ki Leung
 
-The tripos trackers on this repository are designed for the University of Cambridge's Chemical Engineering Tripos. The tripos trackers can help to summarise tripos practice progress, organise learning points, conduct efficient reviews and identify next steps. I benefited hugely from developing and using the tripos tracker for my revision and I hope they can be of some use to you too.
+The tripos trackers on this repository are designed for the University of Cambridge's Chemical Engineering Tripos (CET) and the Chemical Engineering and Biotechnology Tripos (CEBT). The tripos trackers aim to help summarising tripos practice progress, organising learning points, conducting efficient reviews and identifying next steps. I benefited hugely from developing and using the tripos tracker for my revision and I hope they can be of some use to you too.
 
 This documentation provides a user guide and technical details to the tripos trackers, which contain three main sections: dashboard, tripos notes and general comments. The CET IIA tripos tracker is used as an example.
 
-Please note the example content in the user interfaces shown in this documentation are for demonstration purposes only. The example content do not bear any relevance to reality and should not be used as a reference.
+Please note that the example content in the user interfaces shown in this documentation are for demonstration purposes only. The example content do not bear any relevance to reality and should not be used as a reference.
 
 ## Dashboard
 The dashboard summarises the number of tripos questions completed and to be done according to topics.
 
-Column A lists the topics and groups them to relevant tripos papers according to the 2022-2023 Form and Conduct notices. Abbreviations are applied to the topics and they can be changed by editing the corresponding cell. For CET I, please delete as appropriate for the engineering/chemistry topic in paper 4. For CET IIA, the corrosion and materials topic is separated as two distinct topics of 'corrosion' (Corr) and 'materials' (Mat).
+Column A lists the tripos papers and the constituent topics according to the 2023-2024 Form and Conduct notices. Abbreviations are applied to the topics and they can be changed by editing the corresponding cell. Please note the following for the respective tripos parts:
+
+\begin{itemize}
+\item CET I: delete as appropriate for the engineering/chemistry topic in Paper 4.
+\item CET IIA: the 'corrosion and materials' module is separated into two distinct topics of 'corrosion' (Corr) and 'materials' (Mat).
+\item CEBT IA: In Paper 3, the 'shapes and structures of molecules' module is separated into two disinct topics of 'spectroscopy' (Spec) and 'molecular orbitals' (Orbitals). Papers 4 and 5 are grouped together since they examine the same topics, which are listed based on my own experience in the Natural Science Tripos (NST) Mathematics A module.
+\end{itemize}
 
 The 'Achievements' in column B summarises the number of tripos questions completed for each topic. The numbers are automatically updated according to the tripos question entries logged into the [Tripos notes](#tripos-notes) section. The cells are automatically colour coded based on the relative numerical magnitude. A greater value will result in a lighter shade, as illustrated in the example user interface below.
 
