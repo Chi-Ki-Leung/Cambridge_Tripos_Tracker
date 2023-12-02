@@ -5,7 +5,7 @@ The tripos trackers on this repository are designed for the University of Cambri
 
 This documentation provides a user guide and technical details to the tripos trackers, which contain three main sections: dashboard, tripos notes and general comments. The CET IIA tripos tracker is used as an example.
 
-Please note that the example content in the user interfaces shown in this documentation are for demonstration purposes only. The example content do not bear any relevance to reality and should not be used as a reference.
+Please note that the example content in the user interfaces shown in this documentation are for demonstration purposes only. The example content do not bear any relevance to reality and should not be used as a reference. The official Form and Conduct Notices and Syllabus documents should always be used as a reference.
 
 ## Dashboard
 The dashboard summarises the number of tripos questions completed and to be done according to topics.
