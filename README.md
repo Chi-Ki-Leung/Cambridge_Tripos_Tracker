@@ -1,4 +1,4 @@
-# CET Tripos Tracker
+# Cambridge Tripos Tracker
 Developed and written by Chi Ki Leung
 
 The tripos trackers on this repository are designed for the University of Cambridge's Chemical Engineering Tripos (CET) and the Chemical Engineering and Biotechnology Tripos (CEBT). The tripos trackers aim to help summarising tripos practice progress, organising learning points, conducting efficient reviews and identifying next steps. I benefited hugely from developing and using the tripos tracker for my revision and I hope they can be of some use to you too.
