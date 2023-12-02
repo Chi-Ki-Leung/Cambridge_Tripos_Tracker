@@ -14,16 +14,16 @@ Column A lists the tripos papers and the constituent topics according to the 202
 
 - CET I: delete as appropriate for the engineering/chemistry topic in Paper 4.
 - CET IIA: the 'corrosion and materials' module is separated into two distinct topics of 'corrosion' (Corr) and 'materials' (Mat).
-- CEBT IA: In Paper 3, the 'shapes and structures of molecules' module is separated into two disinct topics of 'spectroscopy' (Spec) and 'molecular orbitals' (Orbitals). Papers 4 and 5 are grouped together since they examine the same topics, which are listed based on my own experience in the Natural Science Tripos (NST) Mathematics A module.
+- CEBT IA: In Paper 3, the 'shapes and structures of molecules' module is separated into two disinct topics of 'spectroscopy' (Spec) and 'molecular orbitals' (Orbitals). Papers 4 and 5 are grouped together since they examine the same topics, which the listed topics are  based on my own experience in the Natural Science Tripos (NST) Mathematics A module.
 
 The 'Achievements' in column B summarises the number of tripos questions completed for each topic. The numbers are automatically updated according to the tripos question entries logged into the [Tripos notes](#tripos-notes) section. The cells are automatically colour coded based on the relative numerical magnitude. A greater value will result in a lighter shade, as illustrated in the example user interface below.
 
-In column C, the 'Ideal Ratio' between topics are the number of questions for each topic set in the tripos papers, according to the 2022-2023 Form and Conduct notices. The values for the ideal ratio can be changed, such as to account for personal strengths or weaknesses in different topics, by editing the relevant cells.
+In column C, the 'Ideal Ratio' between topics are based on the respective number of questions set and marks allocated in the tripos papers, according to the 2023-2024 Form and Conduct notices. For CEBT IA Papers 4 and 5, the ratios are set based on the number of topics listed and the total marks for Papers 4 and 5. The values in the 'Ideal Ratio' column can be changed, such as to account for personal strengths or weaknesses in different topics, by editing the relevant cells.
 
-The 'target' in column D lists the number of questions that needs to be done for each topic in order to achieve the ideal ratio between topics set in column C. The cells are automatically colour coded based on the relative numerical magnitude. A greater value will result in a darker shade, as illustrated in the example user interface below. The [Algorithm for Target](#algorithm-for-target) section details how the target values are calculated.
+The 'Target' in column D lists the number of questions that need to be done for each topic in order to achieve the ideal ratio set in column C. The cells are automatically colour coded based on the relative numerical magnitude. A greater value will result in a darker shade, as illustrated in the example user interface below. The [Algorithm for Target](#algorithm-for-target) section details how the target values are calculated.
 
 ### Algorithm for Target
-For each topic, the ratio $R$ is calculated as follows
+For each topic, the ratio $R$ is calculated by
 
 $$ R(\text{topic}) = \frac{\text{Achievement}(\text{topic})}{\text{Ideal Ratio}(\text{topic})} $$
 
@@ -47,17 +47,17 @@ This section is for logging completed tripos questions and reviewing learning po
 
 For each completed tripos question, insert the corresponding year, paper number and question number to the columns labelled Y (column A), P (column B) and Q (column C) respectively.
 
-Next, insert the corresponding topic to column D. The value inserted to the topic column must match with one of the topics listed in column A of [Dashboard](#dashboard), in order to successfully update the numerical value for achievements (column B of [Dashboard](#dashboard)).
+Next, insert the corresponding topic to column D. The value inserted to the topic column (column D) must match with one of the topics listed in column A of [Dashboard](#dashboard), in order to successfully update the numerical value in the 'Achievements' column (column B of [Dashboard](#dashboard)).
 
-The subtopic should then be inserted to column E. The subtopic is designed for categorising tripos questions within the same topic for efficient review. For example, for the particle processing topic in CET IIA, the subtopics may include particle characterisation, cyclones and hoppers.
+The subtopic(s) should then be inserted to column E. The subtopic column is designed for categorising tripos questions within the same topic for efficient review. For example, in CET IIA's particle processing topic, the subtopics may include particle characterisation, cyclones and hoppers.
 
-The possible input options for difficulty level (column F) are H (high), M (medium), L (low) and Outsy (out of syllabus). The cell will be automatically colour coded to red, yellow, blue and grey respectively upon entering the specific values. This is shown in the example user interface below. The Outsy option is designed for past tripos questions that no longer fall into the current syllabus.
+The possible input options for the difficulty level (column F) are 'H' (high), 'M' (medium), 'L' (low) and 'Outsy' (out of syllabus). The cell will be automatically colour coded to red, yellow, blue and grey respectively upon entering the specific corresponding values. This is shown in the example user interface below. The 'Outsy' option is designed for past tripos questions that no longer fall into the current syllabus.
 
-For the remarks column (column G), learning points and comments from the tripos question shall be inserted. Press Alt+Enter to create new rows within the same cell to separate multiple comments, as shown in the example user interface below. These comments should ideally be specific to the topic/subtopic. General comments that are non-specific to the topic can be inserted in the [General comments](#general-comments) section.
+For the remarks column (column G), learning points and comments from the tripos question shall be inserted. Press 'Alt+Enter' to create new rows within the same cell to separate multiple comments, as shown in the example user interface below. These comments should ideally be specific to the topic/subtopic. General comments that are non-specific to the topic can be inserted in the [General comments](#general-comments) section.
 
 The date when the tripos question is attempted should be inserted to column H.
 
-The filter function is enabled for all columns A to H, so tripos questions can be easily selected for different review basis, such as by topic and/or by difficulty.
+The filter function is enabled for all columns A to H, so tripos questions can be easily selected for different review approach, such as by topic and/or by difficulty.
 
 ![Example_TriposNotes](https://user-images.githubusercontent.com/121029649/227582116-e94306bf-b3d4-4a22-a866-e6710fcc0c6f.png)
 
