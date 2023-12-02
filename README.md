@@ -12,11 +12,9 @@ The dashboard summarises the number of tripos questions completed and to be done
 
 Column A lists the tripos papers and the constituent topics according to the 2023-2024 Form and Conduct notices. Abbreviations are applied to the topics and they can be changed by editing the corresponding cell. Please note the following for the respective tripos parts:
 
-\begin{itemize}
-\item CET I: delete as appropriate for the engineering/chemistry topic in Paper 4.
-\item CET IIA: the 'corrosion and materials' module is separated into two distinct topics of 'corrosion' (Corr) and 'materials' (Mat).
-\item CEBT IA: In Paper 3, the 'shapes and structures of molecules' module is separated into two disinct topics of 'spectroscopy' (Spec) and 'molecular orbitals' (Orbitals). Papers 4 and 5 are grouped together since they examine the same topics, which are listed based on my own experience in the Natural Science Tripos (NST) Mathematics A module.
-\end{itemize}
+- CET I: delete as appropriate for the engineering/chemistry topic in Paper 4.
+- CET IIA: the 'corrosion and materials' module is separated into two distinct topics of 'corrosion' (Corr) and 'materials' (Mat).
+- CEBT IA: In Paper 3, the 'shapes and structures of molecules' module is separated into two disinct topics of 'spectroscopy' (Spec) and 'molecular orbitals' (Orbitals). Papers 4 and 5 are grouped together since they examine the same topics, which are listed based on my own experience in the Natural Science Tripos (NST) Mathematics A module.
 
 The 'Achievements' in column B summarises the number of tripos questions completed for each topic. The numbers are automatically updated according to the tripos question entries logged into the [Tripos notes](#tripos-notes) section. The cells are automatically colour coded based on the relative numerical magnitude. A greater value will result in a lighter shade, as illustrated in the example user interface below.
 
